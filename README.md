@@ -39,3 +39,9 @@ export class PrinterService {
 const printer = new PrinterService();
 printer.print("Hello, world!");
 ```
+
+
+
+g++ -o ../PrinterProxy.bin PrinterProxy.cpp TestConnect.cpp ../lib/printer.sdk.tspl.cpp -I../lib -L../lib -lPrinterSDK
+
+g++ -o ../PrinterProxy_esc.bin PrinterProxy_esc.cpp TestConnect.cpp ../lib/printer.sdk.esc.cpp -I../lib -L../lib -lPrinterSDK

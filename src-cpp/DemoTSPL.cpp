@@ -3,7 +3,7 @@
 //
 #include <iostream>
 #include "TestConnect.h"
-#include "printer.sdk.tspl.h"
+#include "../lib/printer.sdk.tspl.h"
 
 using namespace std;
 
